@@ -1,6 +1,6 @@
 {
   "name": "@mcrowe/env-check",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Environment variable checking for node apps.",
   "author": "Mitch Crowe <code@mitchcrowe.com> (http://www.mitchcrowe.com)",
   "license": "ISC",
