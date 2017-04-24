@@ -6,6 +6,24 @@ Environment variable checking for node apps.
 
 > npm install @mcrowe/env-check --save
 
+Add an "env" section to your `package.json` file with a schema for environment variables:
+
+```js
+"env": {
+  "required": {
+    "SERVICE_URL": "URL for the super service",
+    "CONCURRENCY": "Number of concurrent workers to run",
+  },
+  "optional": {
+    "LOG_LEVEL": "Log level [debug, info, error] (defaults to 'info')",
+  }
+}
+```
+
+Require `env-check/run` when running your program to validate environment variables:
+
+> node -r env-check/run index.js
+
 ## Development
 
 Install npm modules:
