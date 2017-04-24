@@ -1,2 +1,4 @@
-declare function doSomething(a: number): number;
-export default doSomething;
+declare var _default: {
+    run: () => void;
+};
+export default _default;
