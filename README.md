@@ -20,9 +20,9 @@ Add an "env" section to your `package.json` file with a schema for environment v
 }
 ```
 
-Require `env-check/run` when running your program to validate environment variables:
+Require `@mcrowe/env-check` when running your program to validate environment variables:
 
-> node -r env-check/run index.js
+> node -r @mcrowe/env-check index.js
 
 ## Development
 

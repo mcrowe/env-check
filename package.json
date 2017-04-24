@@ -9,7 +9,7 @@
     "test": "./node_modules/mocha/bin/mocha -u qunit --recursive -r ./node_modules/ts-node/register test/*",
     "build": "./node_modules/typescript/bin/tsc"
   },
-  "main": "lib/index.js",
+  "main": "lib/run.js",
   "typings": "lib/index",
   "files": [
     "lib/"
